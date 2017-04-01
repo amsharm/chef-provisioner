@@ -1,4 +1,6 @@
-﻿# Load AWS SDK assemblies
+# This is a standalone Powershell script which leverages the AWS .NET API to provision instances and load balancer through AWS OpsWorks
+
+# Load AWS SDK assemblies
 Add-Type -path 'C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWS*.dll'
 
 # The ID of the stack that I'm testing with. Eventually this will be programmatically set
