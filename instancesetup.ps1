@@ -1,8 +1,11 @@
-﻿# Load AWS SDK assemblies
+# This is a standalone Powershell script which leverages the AWS .NET API to provision instances and load balancer through AWS OpsWorks
+
+# Load AWS SDK assemblies
 Add-Type -path 'C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWS*.dll'
 
-# The ID of the stack that I'm testing with. Eventually this will be programmatically set
-$stackId = "224b49c1-3fc2-4e4d-8371-963c7a8c3ac5"
+# The ID of the stack that I'm testing with. Eventually this will be programmatically set. (I hadn't planned on sharing this on Github
+# so I hardcoded some of the AWS specific information. I've changed them now and they don't correspond to anything.)
+$stackId = "224b49c1-3fc2-4e4d-8371-963c7a8c3ac2"
 
 # Create the OpsWorks client 
 $opsworksClient = New-Object Amazon.OpsWorks.AmazonOpsWorksClient([Amazon.RegionEndpoint]::USEast1)
