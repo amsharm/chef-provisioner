@@ -1,0 +1,29 @@
+{
+   "builders": [{
+    "type": "amazon-ebs",
+    "region": "us-east-1",
+    "instance_type": "t2.micro",
+    "source_ami": "ami-30540427",
+    "ami_name": "windows-ami-01",
+    "user_data_file": "C:/Users/aman.f.sharma/Packer/bootstrap-aws.txt",
+    "communicator": "winrm",
+    "winrm_username": "Administrator",
+    "winrm_timeout": "30m",
+    "security_group_id": "sg-3c9f3347",
+    "winrm_password": "some0thingG?me5",
+    "access_key": "AKIAI4P2Q6ZK2JDHZVAA",
+    "secret_key": "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"
+  }],
+  "provisioners": [{
+    "type": "chef-client",
+    "server_url": "https://api.chef.io/organizations/amantest",
+    "guest_os_type": "windows",
+    "prevent_sudo": "true",
+    "run_list": "recipe[installiis],recipe[replacehtmlfile],recipe[octopus::install_tentacle]",
+    "client_key": "C:/chef/amsharm.pem",
+    "validation_client_name": "amantest-validator",
+    "validation_key_path": "C:/chef/amantest-validator.pem"
+    }]
+}
+
+
