@@ -1,0 +1,106 @@
+Generated at 2016-10-26 13:06:57 -0500
+SyntaxError: C:/Users/aman.f.sharma/Master2.ps1:1: syntax error, unexpected $undefined
+packer build C:\Users\aman.f.sharma\Packer\ex...
+                ^
+C:/Users/aman.f.sharma/Master2.ps1:1: syntax error, unexpected $undefined
+...r build C:\Users\aman.f.sharma\Packer\example2.json | Tee-Ob...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:1: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+...er\example2.json | Tee-Object -filepath C:\Users\aman.f.shar...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:1: syntax error, unexpected $undefined
+...ilepath C:\Users\aman.f.sharma\packerlog.log
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:2: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+$AmiID = ((Get-Content C:\Users\aman.f.sharma\packerlo...
+                         ^
+C:/Users/aman.f.sharma/Master2.ps1:2: syntax error, unexpected $undefined
+...Content C:\Users\aman.f.sharma\packerlog.log)[-1]).Split(" "...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:5: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+$jsonObject | ConvertTo-Json -depth 999 | Out-File -Encodin...
+                              ^
+C:/Users/aman.f.sharma/Master2.ps1:5: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+...To-Json -depth 999 | Out-File -Encoding ascii "C:\Users\aman...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+chef-client -z -j C:\Users\aman.f.sharma\c...
+             ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected $undefined
+...t -z -j C:\Users\aman.f.sharma\chef-repo\cookbooks\provision...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+...\Users\aman.f.sharma\chef-repo\cookbooks\provisioner\attribu...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected $undefined
+...provisioner\attributes.json C:\Users\aman.f.sharma\chef-repo...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected $undefined
+...es.json C:\Users\aman.f.sharma\chef-repo\cookbooks\provision...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+...\Users\aman.f.sharma\chef-repo\cookbooks\provisioner\recipes...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+...recipes\test3.rb | Tee-Object -filepath C:\Users\aman.f.shar...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:6: syntax error, unexpected $undefined
+...ilepath C:\Users\aman.f.sharma\cheflog.log
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:7: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+...calingGroupARN = Get-Content C:\Users\aman.f.sharma\chef-rep...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:7: syntax error, unexpected $undefined
+...Content C:\Users\aman.f.sharma\chef-repo\cookbooks\provision...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:7: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+...\Users\aman.f.sharma\chef-repo\cookbooks\provisioner\scaling...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:10: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+$jsonObject | ConvertTo-Json -depth 999 | Out-File -Encodin...
+                              ^
+C:/Users/aman.f.sharma/Master2.ps1:10: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+...To-Json -depth 999 | Out-File -Encoding ascii "C:\Users\aman...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:11: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+Start-Sleep -s 1500
+             ^
+C:/Users/aman.f.sharma/Master2.ps1:12: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+chef-client -z -j C:\Users\aman.f.sharma\c...
+             ^
+C:/Users/aman.f.sharma/Master2.ps1:12: syntax error, unexpected $undefined
+...t -z -j C:\Users\aman.f.sharma\chef-repo\cookbooks\provision...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:12: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+...\Users\aman.f.sharma\chef-repo\cookbooks\provisioner\scaling...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:12: syntax error, unexpected $undefined
+...ovisioner\scalinggroup.json C:\Users\aman.f.sharma\chef-repo...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:12: syntax error, unexpected $undefined
+...up.json C:\Users\aman.f.sharma\chef-repo\cookbooks\provision...
+...                               ^
+C:/Users/aman.f.sharma/Master2.ps1:12: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+...\Users\aman.f.sharma\chef-repo\cookbooks\provisioner\recipes...
+...                               ^
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/mixin/from_file.rb:30:in `instance_eval'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/mixin/from_file.rb:30:in `from_file'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/run_context.rb:374:in `load_recipe_file'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:100:in `block in setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:99:in `each'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:99:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/client.rb:508:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/client.rb:278:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application.rb:267:in `run_with_graceful_exit_option'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application.rb:243:in `block in run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application.rb:226:in `run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application/client.rb:456:in `sleep_then_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application/client.rb:443:in `block in interval_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application/client.rb:442:in `loop'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application/client.rb:442:in `interval_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application/client.rb:426:in `run_application'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib/chef/application.rb:58:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/bin/chef-client:26:in `<top (required)>'
+C:/opscode/chefdk/bin/chef-client:61:in `load'
+C:/opscode/chefdk/bin/chef-client:61:in `<main>'

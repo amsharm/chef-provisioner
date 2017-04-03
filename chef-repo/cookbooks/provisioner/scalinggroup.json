@@ -1,0 +1,3 @@
+{
+    "ScalingGroupARN":  "arn:aws:autoscaling:us-east-1:458713564002:scalingPolicy:d1b8c873-0526-46e7-9862-ed21d30e515b:autoScalingGroupName/my-auto-scaling-group:policyName/scaleup-policy"
+}

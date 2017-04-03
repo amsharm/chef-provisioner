@@ -1,0 +1,10 @@
+{
+	"name": "webserver",
+	"chef_type": "role",
+	"json_class": "Chef::Role",
+	"description": "Web servers",
+	"run_list": [
+      "recipe[apache]"
+      "recipe[installoctopus]" 
+	]
+}

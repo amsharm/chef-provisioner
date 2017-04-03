@@ -1,0 +1,767 @@
+{
+  "name": "amsharm",
+  "normal": {
+    "tags": [
+
+    ],
+    "AmiID": "ami-252db932",
+    "ScalingGroupARN": "arn:aws:autoscaling:us-east-1:458713564002:scalingPolicy:8073128b-ee99-48fd-b4dc-56131fc97522:autoScalingGroupName/my-auto-scaling-group:policyName/scaleup-policy"
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 2,
+        "vendor_id": "GenuineIntel",
+        "family": "0",
+        "model": "17665",
+        "stepping": "1",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 69 Stepping 1",
+        "mhz": "2501",
+        "cache_size": "256 KB"
+      },
+      "total": 4,
+      "cores": 2,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 126853574,
+        "kb_available": 45281394,
+        "kb_used": 81572180,
+        "percent_used": 64,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": "OSDisk"
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume2",
+        "build_number": "10586",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Enterprise",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "CPX-86GQ7VQ7KKF",
+        "current_time_zone": -300,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "9968772",
+        "free_space_in_paging_files": "1900544",
+        "free_virtual_memory": "11634864",
+        "install_date": "20160517092927.000000-300",
+        "large_system_cache": null,
+        "last_boot_up_time": "20160728150658.485685-300",
+        "local_date_time": "20160728152124.103000-300",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 10 Enterprise|C:\\windows|\\Device\\Harddisk0\\Partition4",
+        "number_of_licensed_users": null,
+        "number_of_processes": 98,
+        "number_of_users": 4,
+        "operating_system_sku": 4,
+        "organization": "Accenture",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "Accenture",
+        "serial_number": "00329-00000-00003-AA515",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "1900544",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume4",
+        "system_directory": "C:\\windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "14361692",
+        "total_visible_memory_size": "12461148",
+        "version": "10.0.10586",
+        "windows_directory": "C:\\windows"
+      },
+      "name": "Microsoft Windows 10 Enterprise",
+      "release": "10.0.10586",
+      "version": "10.0.10586  Build 10586",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "CPX-86GQ7VQ7KKF",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": null,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": -300,
+        "daylight_in_effect": true,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "CPX-86GQ7VQ7KKF",
+        "domain": "dir.svc.accenture.com",
+        "domain_role": 1,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": false,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Hewlett-Packard",
+        "model": "HP ProBook 430 G1",
+        "name": "CPX-86GQ7VQ7KKF",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "FBYTE#3X47676J6S6b7J7M7Q7W7saBaqaw.td;",
+          "BUILDID#13WWRAAW601#SABA#DABA;",
+          "ABS 70/71 79 7A 7B 7C",
+          "CSM v0x.xx",
+          "HP_Mute_LED_0_0",
+          "www.hp.com"
+        ],
+        "part_of_domain": true,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Accenture",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "103C_5336AN G=N L=BUS B=HP S=PRO",
+        "system_sku_number": "G2R55UP#ABA",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 1,
+        "total_physical_memory": "12760215552",
+        "user_name": "DIR\\aman.f.sharma",
+        "wake_up_type": 6,
+        "workgroup": null
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "1900544kB",
+        "free": "1900544kB"
+      },
+      "total": "12461148kB",
+      "free": "9968468kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xa": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000001] Intel(R) Dual Band Wireless-N 7260",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.0.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Intel(R) Dual Band Wireless-N 7260",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20160728160723.000000-300",
+            "dhcp_lease_obtained": "20160728150723.000000-300",
+            "dhcp_server": "192.168.0.1",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "dir.svc.accenture.com",
+              "svc.accenture.com",
+              "accenture.com"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "CPX-86GQ7VQ7KKF",
+            "dns_server_search_order": [
+              "208.59.247.45",
+              "208.59.247.46"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 1,
+            "interface_index": 10,
+            "ip_address": [
+              "192.168.0.18",
+              "fe80::ac95:3619:6901:f74c",
+              "::253f:3e89:a4ba:c7d4",
+              "::ac95:3619:6901:f74c"
+            ],
+            "ip_connection_metric": 20,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64",
+              "128",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "AC:7B:A1:96:CC:FB",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "NETwNb64",
+            "setting_id": "{8DD9BC84-7BC0-4F87-9055-4919BDE0986E}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000001] Intel(R) Dual Band Wireless-N 7260",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Intel(R) Dual Band Wireless-N 7260",
+            "device_id": "1",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{8DD9BC84-7BC0-4F87-9055-4919BDE0986E}",
+            "index": 1,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 10,
+            "last_error_code": null,
+            "mac_address": "AC:7B:A1:96:CC:FB",
+            "manufacturer": "Intel Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Intel(R) Dual Band Wireless-N 7260",
+            "net_connection_id": "Wi-Fi",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_8086&DEV_08B1&SUBSYS_40608086&REV_73\\AC7BA1FFFF96CCFB00",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Intel(R) Dual Band Wireless-N 7260",
+            "service_name": "NETwNb64",
+            "speed": "240000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "CPX-86GQ7VQ7KKF",
+            "time_of_last_reset": "20160728150658.485685-300"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.0.18": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.0.255",
+              "family": "inet"
+            },
+            "fe80::ac95:3619:6901:f74c": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "::253f:3e89:a4ba:c7d4": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "::ac95:3619:6901:f74c": {
+              "prefixlen": "64",
+              "family": "inet6"
+            },
+            "AC:7B:A1:96:CC:FB": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.0.1": "94:87:7c:0d:c2:f7",
+            "192.168.0.5": "28:80:23:f4:34:33",
+            "192.168.0.11": "20:0c:c8:50:50:f9",
+            "192.168.0.22": "68:1c:a2:01:3c:11",
+            "192.168.0.27": "54:ab:3a:81:39:7e",
+            "192.168.0.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "224.0.0.253": "01:00:5e:00:00:fd",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.0.1",
+      "default_interface": "0xa"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.0.18",
+    "macaddress": "AC:7B:A1:96:CC:FB",
+    "ip6address": "fe80::ac95:3619:6901:f74c",
+    "os": "windows",
+    "os_version": "10.0.10586",
+    "platform": "windows",
+    "platform_version": "10.0.10586",
+    "platform_family": "windows",
+    "uptime_seconds": 869,
+    "uptime": "14 minutes 29 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "java": {
+        "version": "1.8.0_101",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "1.8.0_101-b13"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) 64-Bit Server VM",
+          "build": "25.101-b13, mixed mode"
+        }
+      },
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "5.0.10586.122",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.10586.122",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0..."
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.1.8",
+        "release_date": "2015-12-16",
+        "target": "i386-pc-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "pc",
+        "target_os": "mingw32",
+        "host": "i686-pc-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "pc",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.10.24",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.16.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.16.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "command": {
+
+    },
+    "hostname": "CPX-86GQ7VQ7KKF",
+    "machinename": "CPX-86GQ7VQ7KKF",
+    "fqdn": "CPX-86GQ7VQ7KKF.dir.svc.accenture.com",
+    "domain": "dir.svc.accenture.com",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1469737291.3146381,
+    "packages": {
+      "Pulse Secure Setup Client 64-bit Activex Control": {
+        "version": "2.1.1.1",
+        "publisher": "Pulse Secure, LLC"
+      },
+      "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)": {
+        "version": "10.0.50908",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Microsoft Office 365 ProPlus - en-us": {
+        "version": "16.0.6741.2056",
+        "publisher": "Microsoft Corporation"
+      },
+      "Sublime Text 2.0.2": {
+        "installdate": "20160519"
+      },
+      "Synaptics Pointing Device Driver": {
+        "version": "19.0.12.0",
+        "publisher": "Synaptics Incorporated"
+      },
+      "64 Bit HP CIO Components Installer": {
+        "version": "4.2.1",
+        "publisher": "Hewlett-Packard",
+        "installdate": "20160727"
+      },
+      "Pulse Secure": {
+        "version": "5.2.529",
+        "publisher": "Pulse Secure, LLC",
+        "installdate": "20160629"
+      },
+      "AWS Command Line Interface": {
+        "version": "1.10.44",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20160705"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Configuration Manager Client": {
+        "version": "5.00.8325.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160622"
+      },
+      "Java 8 Update 101 (64-bit)": {
+        "version": "8.0.1010.13",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160721"
+      },
+      "Symantec Endpoint Protection": {
+        "version": "12.1.6860.6400",
+        "publisher": "Symantec Corporation",
+        "installdate": "20160519"
+      },
+      "Accenture Mobile Media Reminder x64": {
+        "version": "2.3.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160517"
+      },
+      "Microsoft Silverlight": {
+        "version": "5.1.50428.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160718"
+      },
+      "Office 16 Click-to-Run Licensing Component": {
+        "version": "16.0.6701.1034",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160727"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Chef Client v12.10.24": {
+        "version": "12.10.24.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20160524"
+      },
+      "Avecto Defendpoint Client (x64) 4.0.349": {
+        "version": "4.0.349",
+        "publisher": "Avecto",
+        "installdate": "20160707"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Microsoft Visual C++ 2005 Redistributable (x64)": {
+        "version": "8.0.61000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "WinZip 20.5": {
+        "version": "20.5.12118",
+        "publisher": "WinZip Computing, S.L. ",
+        "installdate": "20160728"
+      },
+      "Microsoft Policy Platform": {
+        "version": "68.1.1001.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160622"
+      },
+      "TRITON AP-ENDPOINT": {
+        "version": "8.1.3255",
+        "publisher": "Websense, Inc.",
+        "installdate": "20160613"
+      },
+      "Pulse Secure 5.2": {
+        "version": "5.2.529",
+        "publisher": "Pulse Secure, LLC"
+      },
+      "Pulse Secure Installer Service 8.1": {
+        "version": "8.1.35039",
+        "publisher": "Pulse Secure, LLC"
+      },
+      "Pulse Secure Network Connect 8.1": {
+        "version": "8.1.8.43849",
+        "publisher": "Pulse Secure, LLC"
+      },
+      "Pulse Secure Setup Client Activex Control": {
+        "version": "2.1.1.1",
+        "publisher": "Pulse Secure, LLC"
+      },
+      "Chef Development Kit v0.14.25": {
+        "version": "0.14.25.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20160524"
+      },
+      "Pulse Secure Installer Service": {
+        "version": "8.1.35039",
+        "publisher": "Pulse Secure",
+        "installdate": "20160629"
+      },
+      "Google Chrome": {
+        "version": "51.0.2704.103",
+        "publisher": "Google, Inc.",
+        "installdate": "20160517"
+      },
+      "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Java 8 Update 101": {
+        "version": "8.0.1010.13",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160721"
+      },
+      "Java 8 Update 73": {
+        "version": "8.0.730.2",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160517"
+      },
+      "Java Auto Updater": {
+        "version": "2.8.101.13",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160721"
+      },
+      "Google Update Helper": {
+        "version": "1.3.31.5",
+        "publisher": "Google Inc.",
+        "installdate": "20160728"
+      },
+      "CIO_IRM_Rights_Policy_Template_Accenture_Leadership_Read_Only": {
+        "version": "1.0.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      },
+      "CIO_IRM_Rights_Policy_Template_Accenture_Leadership_Editable": {
+        "version": "1.0.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "CIO_IRM_Rights_Policy_Template_Internal_Use_Editable": {
+        "version": "1.0.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      },
+      "Office 16 Click-to-Run Extensibility Component": {
+        "version": "16.0.6701.1034",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160727"
+      },
+      "Office 16 Click-to-Run Localization Component": {
+        "version": "16.0.6701.1034",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160727"
+      },
+      "Accenture CA Root Certificates": {
+        "version": "1.1.1",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      },
+      "Adobe Refresh Manager": {
+        "version": "1.8.0",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20160519"
+      },
+      "Adobe Acrobat Reader DC": {
+        "version": "15.010.20056",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20160517"
+      },
+      "Extended Asian Language font pack for Adobe Acrobat Reader DC": {
+        "version": "15.007.20033",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20160517"
+      },
+      "Permissions functionality Outlook button": {
+        "version": "1.0.1",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      },
+      "CIO_IRM_Rights_Policy_Template_Internal_Use_Read_Only": {
+        "version": "1.0.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      },
+      "PhishMe Reporter": {
+        "version": "2.0.5",
+        "publisher": "PhishMe, Inc.",
+        "installdate": "20160519"
+      },
+      "Accenture External E-mail Validation Add-in": {
+        "version": "1.0.6",
+        "publisher": "Accenture",
+        "installdate": "20160517"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005": {
+        "version": "12.0.21005.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "10.18.15.4268",
+        "publisher": "Intel Corporation"
+      },
+      "Accenture PPT Templates 2016": {
+        "version": "2.0.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160517"
+      },
+      "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160519"
+      },
+      "Accenture SSL CA Certificates": {
+        "version": "1.0.0.0",
+        "publisher": "Accenture",
+        "installdate": "20160519"
+      }
+    },
+    "root_group": "Administrators",
+    "recipes": [
+
+    ],
+    "expanded_run_list": [
+
+    ],
+    "roles": [
+
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "blah",
+  "reference": {
+    "id": "vpc-a49f91c0"
+  },
+  "driver_url": "aws::us-east-1"
+}
