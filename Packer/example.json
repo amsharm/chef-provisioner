@@ -11,8 +11,8 @@
     "winrm_timeout": "30m",
     "security_group_id": "sg-11082169",
     "winrm_password": "some0thingG?me5",
-    "access_key": "AKIAI3EG7KTLLPH7Q4QA",
-    "secret_key": "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"
+    "access_key": "###################",
+    "secret_key": "####################################3"
   }],
   "provisioners": [{
     "type": "chef-client",
